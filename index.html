@@ -1,1 +1,365 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><script src="https://saurabhdaware.github.io/github-profile-card/card.js"></script><link rel="manifest" href="/manifest.json"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/><title>Savvy</title><script type="text/javascript">!function(n){if("/"===n.search[1]){var a=n.search.slice(1).split("&").map((function(n){return n.replace(/~and~/g,"&")})).join("?");window.history.replaceState(null,null,n.pathname.slice(0,-1)+a+n.hash)}}(window.location)</script><link href="/static/css/main.77f378d5.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function t(t){for(var n,i,a=t[0],c=t[1],l=t[2],s=0,p=[];s<a.length;s++)i=a[s],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&p.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(t);p.length;)p.shift()();return u.push.apply(u,l||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,a=1;a<r.length;a++){var c=r[a];0!==o[c]&&(n=!1)}n&&(u.splice(t--,1),e=i(i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.e=function(e){var t=[],r=o[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=o[e]=[t,n]}));t.push(r[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"3f1f5102"}[e]+".chunk.js"}(e);var c=new Error;u=function(t){a.onerror=a.onload=null,clearTimeout(l);var r=o[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),u=t&&t.target&&t.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,r[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(t)},i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)i.d(r,n,function(t){return e[t]}.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/",i.oe=function(e){throw console.error(e),e};var a=this.webpackJsonpmywebsite=this.webpackJsonpmywebsite||[],c=a.push.bind(a);a.push=t,a=a.slice();for(var l=0;l<a.length;l++)t(a[l]);var f=c;r()}([])</script><script src="/static/js/2.d063850e.chunk.js"></script><script src="/static/js/main.a26d30f8.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <title>Saheel</title>
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+    <div class="container">
+      <div class="nav-container">
+        <!-- Savvy logo -->
+        <div class="navbar">
+          <img src="./assets/Savvy.jpg" />
+          <ul>
+            <li>
+              <a class="selected" onclick="scrollToElement('home')">Home</a>
+            </li>
+            <li>
+              <a onclick="scrollToElement('skills')">Skills</a>
+            </li>
+            <li><a onclick="scrollToElement('projects') ">Projects</a></li>
+            <li><a onclick="scrollToElement('experiences') ">Experience</a></li>
+          </ul>
+          <div class="resume-container">
+            <div class="shadow"></div>
+            <a class="resume" href="">Download Resume</a>
+          </div>
+        </div>
+      </div>
+      <div class="introduction" id="introduction">
+        <div class="left">
+          <div class="heading-wrapper">
+            <p>Hello, I'm</p>
+            <h1 class="heading">Saheel Sapovadia</h1>
+            <p class="sde-i">// software developer - Intern</p>
+          </div>
+          <p class="bio">
+            A tech enthusiast with 12 years Experience. I like to code different
+            scenarios. Haha lol connect with me dude.A tech enthusiast with 12
+            years Experience. I like to code different scenarios. Haha lol
+            connect with me dude.
+          </p>
+          <div class="socials">
+            <!-- on hover display username or email -->
+            <div>
+              <img class="social-img" src="./assets/Gmail.png" />
+            </div>
+            <div>
+              <a
+                href="https://github.com/saheelsapovadia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img class="social-img" src="./assets/Github.png" />
+              </a>
+            </div>
+            <div>
+              <img class="social-img" src="./assets/Twitter.png" />
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img class="profile-img" src="./assets/profile.jpg" />
+        </div>
+      </div>
+
+      <div class="skills-container" id="skills">
+        <p class="heading">My awesome <span>Skills</span></p>
+        <div class="skills">
+          <div class="skill-main">
+            <div class="skill">
+              <img src="./assets/React.png" />
+              <p>Reactjs</p>
+            </div>
+            <div class="skill-shadow"></div>
+          </div>
+          <div class="skill-main">
+            <div class="skill">
+              <img src="./assets/Angular.svg" />
+              <p>Angularjs</p>
+            </div>
+            <div class="skill-shadow"></div>
+          </div>
+          <div class="skill-main">
+            <div class="skill">
+              <img src="./assets/React.png" />
+              <p>React native</p>
+            </div>
+            <div class="skill-shadow"></div>
+          </div>
+          <div class="skill-main">
+            <div class="skill">
+              <img src="./assets/Node.svg" />
+              <p>Nodejs</p>
+            </div>
+            <div class="skill-shadow"></div>
+          </div>
+          <div class="skill-main">
+            <div class="skill">
+              <img src="./assets/LeetCode.png" />
+              <p>DSA on Leetcode</p>
+            </div>
+            <div class="skill-shadow"></div>
+          </div>
+          <div class="skill-main">
+            <div class="skill">
+              <img src="./assets/postgresql.png" />
+              <p>Miscellaneous</p>
+            </div>
+            <div class="skill-shadow"></div>
+          </div>
+        </div>
+      </div>
+      <div class="projects-container" id="projects">
+        <p class="heading">My awesome <span>projects</span></p>
+        <div class="projects">
+          <div class="project">
+            <p>Novel web app</p>
+            <p class="desc">
+              Developed and Deployed (AWS) a website where users can read
+              English versions of Korean & Chinese novels.
+            </p>
+            <ul>
+              <li>Backend: Nodejs and Express js web application framework</li>
+              <li>Database: MongoDB Atlas as the database</li>
+              <li>
+                Authentication: Login with Google is also implemented in the app
+              </li>
+            </ul>
+
+            <a
+              href="https://github.com/saheelsapovadia/EAheroku"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Learn more</a
+            >
+          </div>
+          <div class="project">
+            <p>Pomodoro app</p>
+            <p class="desc">
+              Productivity enchancing timer app to complete daily tasks
+            </p>
+            <ul>
+              <li>
+                Binding with functions written in native Android Java rather
+                than using 3rd party rn libraries for more efficiency
+              </li>
+              <li>React nativigation</li>
+              <li>Animations and PanResponder</li>
+            </ul>
+            <a
+              href="https://github.com/saheelsapovadia/Pomodoro"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Learn more</a
+            >
+          </div>
+
+          <div class="project">
+            <p>Spotify web clone</p>
+            <p class="desc">Open source community project led by me</p>
+            <ul>
+              <li>
+                As a Maintainer 🧑‍💻 in Hacktoberfest, managed repositories open
+                for contributions
+              </li>
+              <li>
+                Approved and merged multiple pull requests from around the globe
+              </li>
+              <li>
+                Solving merge conflicts 🦹‍♂️, bugs 🐞 and overall code
+                improvements
+              </li>
+            </ul>
+            <a
+              href="https://github.com/clubgamma/spotify-web-clone"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Learn more</a
+            >
+          </div>
+          <div class="project">
+            <p>Angular project management</p>
+            <p class="desc">
+              Projects and Users management platform under the guidance of
+              Motorola Solutions engineers
+            </p>
+            <ul>
+              <li>
+                Under the mentorship of Motorola Solutions Software engineers 🧑‍💻
+                for 6 months developed a full stack PEAN app
+              </li>
+              <li>
+                Project includes all the fundamental aspects of full stack.
+                Authentication, CRUD REST apis, SQL, etc
+              </li>
+            </ul>
+            <a
+              href="https://github.com/saheelsapovadia/MSI-Project-19CE127"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Learn more</a
+            >
+          </div>
+          <div class="project">
+            <p>Facebook web clone</p>
+            <p class="desc">Facebook home page clone</p>
+            <ul>
+              <li>Practicing CSS styling tailwind CSS to design an crisp UI</li>
+              <li>Implementing fundamental react features and</li>
+            </ul>
+            <a
+              href="https://github.com/saheelsapovadia/facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="experiences-container" id="experiences">
+        <p class="heading">My awesome <span>experiences</span></p>
+        <div class="experiences">
+          <div class="right"></div>
+          <div class="left">
+            <div class="experience">
+              <div class="margin">
+                <p>01/</p>
+              </div>
+              <div class="main">
+                <div style="display: flex; align-items: center">
+                  <p>Software Developer Intern</p>
+                  <div class="current"></div>
+                </div>
+                <div class="info-container">
+                  <p class="company">motorola solutions inc.</p>
+                  <div class="info">
+                    <p>June 2022 - Present</p>
+                    <p>Baroda, Gujarat</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li>
+                      TLS enhancement in Alarmdashboard platform build with
+                      Angular and Node
+                    </li>
+                    <li>Logging the Angular app</li>
+                    <li>
+                      Handling frontend and backend of new internal platform
+                      redevelopment project
+                    </li>
+                    <li>Managing the data flow of Hadoop and Elastic search</li>
+                  </ul>
+                  <div class="tech">
+                    <img src="/assets/Angular.svg" />
+                    <img src="/assets/Nodejs.png" />
+                    <img src="/assets/postgresql.png" />
+                    <img src="/assets/Github.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="experience">
+              <div class="margin">
+                <p>02/</p>
+              </div>
+              <div class="main">
+                <p>Elective Course</p>
+                <div class="info-container">
+                  <p class="company">motorola solutions inc.</p>
+                  <div class="info">
+                    <p>June 2022 - Present</p>
+                    <p>Baroda, Gujarat</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li>
+                      Project Development under the guidance and supervision of
+                      Software Developers@Motorola Solutions
+                    </li>
+                    <li>Frontend in Angular framework</li>
+                    <li>
+                      Microservice Fundamentals Backend using Nodejs and
+                      PostgreSQL
+                    </li>
+
+                    <li>Concepts of REST APIs in Hadoop and Elastic Search</li>
+                  </ul>
+                  <div class="tech">
+                    <img src="/assets/Angular.svg" />
+                    <img src="/assets/Nodejs.png" />
+                    <img src="/assets/postgresql.png" />
+                    <img src="/assets/Github.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="experience">
+              <div class="margin">
+                <p>03/</p>
+              </div>
+              <div class="main">
+                <p>Frontend Web Intern</p>
+                <div class="info-container">
+                  <p class="company">Science2Innovation</p>
+                  <div class="info">
+                    <p>June 2022 - Present</p>
+                    <p>Hyderabad, Telagana</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>
+                    Project Development under the guidance and supervision of
+                    Software Developers@Motorola Solutions
+                  </p>
+                  <p>Frontend in Angular framework</p>
+                  <p>
+                    Microservice Fundamentals Backend using Nodejs and
+                    PostgreSQL
+                  </p>
+
+                  <p>Concepts of REST APIs in Hadoop and Elastic Search</p>
+
+                  <div class="tech">
+                    <img src="/assets/React.png" />
+                    <img src="/assets/Nodejs.png" />
+                    <img src="/assets/Github.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="open-source-container">
+        <p>Open Source Contributions</p>
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <footer>
+      <!-- socials -->
+      <p>
+        Made with
+        <span
+          style="
+            color: rgb(226, 85, 85);
+            font-size: 40px;
+            background-color: #00ff94;
+          "
+          >♥</span
+        >
+        by Saheel Sapovadia
+      </p>
+    </footer>
+  </body>
+</html>
