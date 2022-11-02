@@ -48,6 +48,12 @@ html {
         width: 70%;
         font-family: "Montserrat", sans-serif;
       }
+      .intro-list {
+        margin-top: 10px;
+        width: 70%;
+        font-family: "Montserrat", sans-serif;
+        list-style: none;
+      }
       .socials {
         margin-top: 25px;
         div {
@@ -437,16 +443,25 @@ html {
           font-family: "Poppins", sans-serif;
           padding: 10px 20px;
           background-image: linear-gradient(
-            to bottom,
-            rgb(249, 217, 31),
-            rgb(247, 137, 58)
+            to right top,
+            rgb(58, 134, 247),
+            rgb(191, 249, 31)
           );
           border-radius: 90px;
+          box-shadow: 0 4px 45px 20px rgb(204, 235, 156);
+          transition: 0.3s ease;
           &:link,
           &:visited {
             text-decoration: none;
             color: white;
             font-weight: 600;
+          }
+          &:hover {
+            transform: translateY(-3px);
+          }
+          &:focus {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 35px 10px rgb(175, 227, 102);
           }
         }
         .shadow {
