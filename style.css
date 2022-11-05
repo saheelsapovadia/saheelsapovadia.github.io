@@ -196,6 +196,25 @@ html {
   }
   .container .introduction .left {
     text-align: center;
+    padding: 0;
+  }
+}
+@media (width < 480px) {
+  .container .introduction .left {
+    width: 100%;
+    padding: 0;
+  }
+  .container .introduction .left .heading-wrapper .heading {
+    font-size: 30px;
+  }
+  .container .introduction .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .introduction .right .profile-img {
+    width: 70%;
   }
 }
 .container .projects-container {
@@ -279,6 +298,11 @@ html {
 @media (width < 1000px) {
   .container .projects-container .heading {
     text-align: center;
+  }
+}
+@media (width < 480px) {
+  .container .projects-container {
+    padding: 10px;
   }
 }
 .container .skills-container {
@@ -450,6 +474,9 @@ html {
   height: 35px;
 }
 @media (width < 1000px) {
+  .container .experiences-container .heading {
+    text-align: center;
+  }
   .container .experiences-container .experiences {
     flex-direction: column;
     align-items: center;
@@ -461,9 +488,24 @@ html {
     display: none;
   }
 }
-@media (width < 1000px) {
+@media (width < 480px) {
+  .container .experiences-container {
+    padding: 10px;
+  }
   .container .experiences-container .heading {
     text-align: center;
+  }
+  .container .experiences-container .experiences .left .experience {
+    flex-direction: column;
+  }
+  .container .experiences-container .experiences .left .experience .main {
+    width: 100%;
+  }
+  .container .experiences-container .experiences .left .experience .main .title p {
+    font-size: 30px;
+  }
+  .container .experiences-container .experiences .left .experience .main .info-container {
+    flex-direction: column;
   }
 }
 .container .open-source-container p:first-child {
@@ -483,6 +525,7 @@ html {
   flex-direction: row;
   transition: 0.3s;
   position: relative;
+  height: 50px;
 }
 .container .nav-container .navbar img:first-child {
   position: absolute;
@@ -557,6 +600,12 @@ html {
   transform: translateY(-1px);
   box-shadow: 0 2px 35px 10px rgb(175, 227, 102);
 }
+@media (width < 480px) {
+  .container .nav-container .navbar .navbar-list {
+    display: none;
+  }
+}
+
 footer {
   display: flex;
   background-color: #00ff94;
