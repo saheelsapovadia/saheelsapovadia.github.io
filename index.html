@@ -4,15 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- style -->
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+
     <title>Saheel</title>
   </head>
   <body>
     <script src="script.js" defer></script>
     <div class="container">
-      <div class="nav-container">
-        <!-- Savvy logo -->
+      <header class="header" id="header">
+        <nav class="nav container">
+          <a href="#" class="nav__logo"
+            ><img class="savvy-img" src="./assets/Savvy.jpg"
+          /></a>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">
+                  <i class="uil uil-estate nav__icon"></i> Home
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#projects" class="nav__link">
+                  <i class="uil uil-rocket nav__icon"></i> Projects
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#skills" class="nav__link">
+                  <i class="uil uil-file-alt nav__icon"></i> Skills
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#experiences" class="nav__link">
+                  <i class="uil uil-bag nav__icon"></i> Experiences
+                </a>
+              </li>
+            </ul>
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+          </div>
+          <div class="nav__btns">
+            <div class="nav__toggle" id="nav-toggle">
+              <i class="uil uil-apps"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- <div class="nav-container">
         <div class="navbar">
           <img src="./assets/Savvy.jpg" />
           <ul class="navbar-list">
@@ -35,8 +82,8 @@
             >
           </div>
         </div>
-      </div>
-      <div class="introduction" id="introduction">
+      </div> -->
+      <div class="introduction" id="home">
         <!-- <div class="intro-back"></div> -->
         <div class="left">
           <div class="heading-wrapper">
