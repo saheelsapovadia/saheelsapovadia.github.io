@@ -617,6 +617,18 @@ footer p {
   font-family: "Poppins", sans-serif;
   background-color: #00ff94;
 }
+footer p span {
+  font-size: 40px;
+}
+@media (width < 480px) {
+  footer p span {
+    font-size: 25px;
+  }
+  footer p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
 
 @-webkit-keyframes wipe-enter {
   0% {
