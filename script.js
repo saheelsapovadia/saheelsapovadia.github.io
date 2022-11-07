@@ -16,7 +16,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-observer.observe(document.querySelector(".heading-wrapper"));
+// observer.observe(document.querySelector(".heading-wrapper"));
 
 const skills = document.querySelector(".skills");
 
@@ -54,12 +54,14 @@ const navMenu = document.getElementById("nav-menu"),
 if (navToggle) {
   navToggle.addEventListener("click", () => {
     navMenu.classList.add("show-menu");
+    // console.log("open");
   });
 }
 //close
 if (navClose) {
   navClose.addEventListener("click", () => {
     navMenu.classList.remove("show-menu");
+    // console.log("close");
   });
 }
 
