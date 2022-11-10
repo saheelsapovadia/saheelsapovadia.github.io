@@ -71,3 +71,18 @@ function linkAction() {
   navMenu.classList.remove("show-menu");
 }
 navLinks.forEach((link) => link.addEventListener("click", linkAction));
+
+// Qualification tabs
+
+const tabs = document.querySelectorAll("[data-target]"),
+  tabsContents = document.querySelectorAll("[data-content]");
+
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    const target = document.querySelector(tab.dataset.target);
+    tabsContents.forEach((tabsContent) => {
+      tabsContent.classList.remove("qualification__active");
+    });
+    target.classList.add("qualification__active");
+  });
+});
