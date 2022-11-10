@@ -203,6 +203,7 @@ section {
 }
 
 .section__title {
+  padding-top: 30px;
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
@@ -427,6 +428,8 @@ main {
 .home__scroll-button {
   color: var(--first-color);
   transition: 0.3s;
+  display: flex;
+  align-items: center;
 }
 .home__scroll-button:hover {
   transform: translateY(0.25rem);
@@ -466,6 +469,88 @@ main {
   }
   .home__blob {
     width: 300px;
+  }
+}
+.qualification {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.qualification__tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2);
+}
+
+.qualification__button {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
+.qualification__button:hover {
+  color: var(--first-color);
+}
+
+.qualification__icon {
+  font-size: 1.8rem;
+  margin-right: var(--mb-0-25);
+}
+
+.qualification__data {
+  display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
+  grid-template-columns: 1fr max-content 1fr;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+.qualification__data div {
+  text-align: center;
+}
+
+.qualification__title {
+  font-size: var(--normal-font-size);
+}
+
+.qualification__subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.qualification__calendar {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.qualification__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.qualification__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--first-color);
+  transform: translate(6px, -7px);
+}
+
+.qualification [data-content] {
+  display: none;
+}
+
+.qualification__active[data-content] {
+  display: block;
+}
+
+@media screen and (width < 758px) {
+  .qualification {
+    width: 100%;
+    padding: 0 20px;
   }
 }
 .container .introduction {
@@ -981,14 +1066,14 @@ main {
 
 footer {
   display: flex;
-  background-color: #00ff94;
+  background-color: var(--first-color);
   justify-content: center;
 }
 footer p {
   margin: 10px;
   font-size: 30px;
   font-family: "Poppins", sans-serif;
-  background-color: #00ff94;
+  background-color: var(--first-color);
 }
 footer p span {
   font-size: 40px;
