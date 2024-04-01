@@ -1,349 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Icons -->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- style -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- style -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
 
-    <title>Saheel</title>
-  </head>
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+  <title>Saheel</title>
+</head>
 
-  <body>
-    <div class="container">
-      <header class="header" id="header">
-        <nav class="nav container">
-          <a href="#" class="nav__logo"
-            ><img class="savvy-img" src="./assets/Savvy.jpg"
-          /></a>
+<body>
+  <div class="container">
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"><img class="savvy-img" src="./assets/Savvy.jpg" /></a>
 
-          <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list grid">
-              <li class="nav__item">
-                <a href="#home" class="nav__link">
-                  <i class="uil uil-estate nav__icon"></i> Home
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="#skills" class="nav__link">
-                  <i class="uil uil-file-alt nav__icon"></i> Skills
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="#qualifications" class="nav__link">
-                  <i class="uil uil-bag nav__icon"></i> Qualifications
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="#projects" class="nav__link">
-                  <i class="uil uil-rocket nav__icon"></i> Projects
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="#experiences" class="nav__link">
-                  <i class="uil uil-bag nav__icon"></i> Experiences
-                </a>
-              </li>
-            </ul>
-            <i class="uil uil-times nav__close" id="nav-close"></i>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualifications" class="nav__link">
+                <i class="uil uil-bag nav__icon"></i> Qualifications
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="uil uil-rocket nav__icon"></i> Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experiences" class="nav__link">
+                <i class="uil uil-bag nav__icon"></i> Experiences
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
           </div>
-          <div class="nav__btns">
-            <div class="nav__toggle" id="nav-toggle">
-              <i class="uil uil-apps"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/saheel-sapovadia" class="home__social-icon" target="_blank">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="https://github.com/saheelsapovadia/" class="home__social-icon" target="_blank">
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a href="https://twitter.com/savvysaheel/" class="home__social-icon" target="_blank">
+                <i class="uil uil-twitter-alt"></i>
+              </a>
             </div>
-          </div>
-        </nav>
-      </header>
-
-      <main class="main">
-        <section class="home section" id="home">
-          <div class="home__container container grid">
-            <div class="home__content grid">
-              <div class="home__social">
-                <a
-                  href="https://www.linkedin.com/in/saheel-sapovadia"
-                  class="home__social-icon"
-                  target="_blank"
-                >
-                  <i class="uil uil-linkedin-alt"></i>
-                </a>
-                <a
-                  href="https://github.com/saheelsapovadia/"
-                  class="home__social-icon"
-                  target="_blank"
-                >
-                  <i class="uil uil-github-alt"></i>
-                </a>
-                <a
-                  href="https://twitter.com/savvysaheel/"
-                  class="home__social-icon"
-                  target="_blank"
-                >
-                  <i class="uil uil-twitter-alt"></i>
-                </a>
-              </div>
-              <div class="home__img">
-                <svg
-                  class="home__blob"
-                  viewBox="0 0 200 187"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <mask id="mask0" mask-type="alpha">
-                    <path
-                      d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                  <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
         130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
         97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                    />
-                  </mask>
-                  <g mask="url(#mask0)">
-                    <path
-                      d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
         165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
         129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                    />
-                    <image
-                      class="home__blob-img"
-                      x="-50"
-                      href="/assets/pb.png"
-                    />
-                  </g>
-                </svg>
-              </div>
-              <div class="home__data">
-                <h1 class="home__title">Hi!, <br />I'm Saheel</h1>
-                <h3 class="home__subtitle">Frontend Developer</h3>
-                <p class="home__description">
-                  A tech enthusiast. I’m currently Software Developer Intern
-                  @Motorola Solutions 🚀.
-                  <br />I'm a self-taught passionate Frontend developer. I've
-                  been building stuff on the web since when I was in 10th
-                  standard, I've made countless side projects and I also posses
-                  magical powers of using React to build delightful user
-                  interfaces.<br /><br />
-                  I also love doing open source development, I actively maintain
-                  projects for annual Hacktoberfest
-                </p>
-                <a
-                  href="https://stackoverflow.com/users/14099703/saheel-sapovadia"
-                  ><img
-                    src="https://stackoverflow.com/users/flair/14099703.png"
-                    width="208"
-                    height="58"
-                    alt="profile for Saheel Sapovadia at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
-                    title="profile for Saheel Sapovadia at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
-                /></a>
-                <!-- a -->
-              </div>
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                  <image class="home__blob-img" x="-50" href="/assets/pb-1.png" />
+                </g>
+              </svg>
             </div>
-            <div class="home__scroll">
-              <a href="#skills" class="home__scroll-button button--flex">
-                <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                <span class="home__scoll-name">Scroll down</span>
-                <i class="uil uil-arrow-down home__scroll-arrow"></i>
-              </a>
+            <div class="home__data">
+              <h1 class="home__title">Hi!, <br />I'm Saheel</h1>
+              <h3 class="home__subtitle">Software Engineer</h3>
+              <p class="home__description">
+                A tech enthusiast. I’m currently Software Developer
+                @Motorola Solutions 🚀.
+                <br />I'm a self-taught passionate Frontend developer. I've
+                been building stuff on the web since when I was in 10th
+                standard, I've made countless side projects and I also posses
+                magical powers of using React to build delightful user
+                interfaces.<br /><br />
+                I also love doing open source development, I actively maintain
+                projects for annual Hacktoberfest
+              </p>
+              <a href="https://stackoverflow.com/users/14099703/saheel-sapovadia"><img
+                  src="https://stackoverflow.com/users/flair/14099703.png" width="208" height="58"
+                  alt="profile for Saheel Sapovadia at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+                  title="profile for Saheel Sapovadia at Stack Overflow, Q&amp;A for professional and enthusiast programmers" /></a>
+              <!-- a -->
             </div>
           </div>
-        </section>
-      </main>
-
-      <!-- <div class="introduction" id="home">
-        <div class="left">
-          <div class="heading-wrapper">
-            <p>Hello, I'm</p>
-            <h1 class="heading">Saheel Sapovadia</h1>
-            <p class="sde-i">// software developer - Intern</p>
+          <div class="home__scroll">
+            <a href="#skills" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scoll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
           </div>
-          <p class="bio">
-            A tech enthusiast. I’m currently Software Developer Intern @Motorola
-            Solutions 🚀.
-          </p>
-          <ul class="intro-list">
-            I'm a self-taught passionate Frontend developer. I've been building
-            stuff on the web since when I was in 10th standard, I've made
-            countless side projects and I also posses magical powers of using
-            React to build delightful user interfaces.
-            <br /><br />
-            I also love doing open source development, I actively maintain
-            projects for annual Hacktoberfest
-          </ul>
-          <div class="socials">
-            <div>
-              <a href="https://github.com/saheelsapovadia/" target="_blank">
-                <img class="social-img" src="./assets/Github.png" />
-              </a>
-            </div>
-            <div>
-              <a href="https://twitter.com/savvysaheel/" target="_blank">
-                <img class="social-img" src="./assets/Twitter.png" />
-              </a>
-            </div>
-          </div>
-          <a href="https://stackoverflow.com/users/14099703/saheel-sapovadia"
-            ><img
-              src="https://stackoverflow.com/users/flair/14099703.png"
-              width="208"
-              height="58"
-              alt="profile for Saheel Sapovadia at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
-              title="profile for Saheel Sapovadia at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
-          /></a>
         </div>
-        <div class="right">
-          <div class="profile-img"></div>
-        </div>
-      </div> -->
+      </section>
+    </main>
 
-      <div class="about-me">
-        <a href="./assets/documents/RESUME.pdf" class="resume" target="_blank"
-          >Download Resume <i class="uil uil-file-copy-alt"></i
-        ></a>
-      </div>
-      <div class="skills-container" id="skills">
-        <p class="heading">My awesome <span>Skills</span></p>
-        <div class="skills">
-          <div class="skill-main">
-            <div class="skill">
-              <img src="./assets/React.png" />
-              <p>Reactjs</p>
-            </div>
-            <div class="skill-shadow"></div>
+    <div class="about-me">
+      <a href="./assets/documents/RESUME.pdf" class="resume" target="_blank">Download Resume <i
+          class="uil uil-file-copy-alt"></i></a>
+    </div>
+    <div class="skills-container" id="skills">
+      <p class="heading">My awesome <span>Skills</span></p>
+      <div class="skills">
+        <div class="skill-main">
+          <div class="skill">
+            <img src="./assets/React.png" />
+            <p>Reactjs</p>
           </div>
-          <div class="skill-main">
-            <div class="skill">
-              <img src="./assets/Angular.svg" />
-              <p>Angularjs</p>
-            </div>
-            <div class="skill-shadow"></div>
+          <div class="skill-shadow"></div>
+        </div>
+        <div class="skill-main">
+          <div class="skill">
+            <img src="./assets/Angular.svg" />
+            <p>Angularjs</p>
           </div>
-          <div class="skill-main">
-            <div class="skill">
-              <img src="./assets/React.png" />
-              <p>React native</p>
-            </div>
-            <div class="skill-shadow"></div>
+          <div class="skill-shadow"></div>
+        </div>
+        <div class="skill-main">
+          <div class="skill">
+            <img src="./assets/React.png" />
+            <p>React native</p>
           </div>
-          <div class="skill-main">
-            <div class="skill">
-              <img src="./assets/Node.svg" />
-              <p>Nodejs</p>
-            </div>
-            <div class="skill-shadow"></div>
+          <div class="skill-shadow"></div>
+        </div>
+        <div class="skill-main">
+          <div class="skill">
+            <img src="./assets/Node.svg" />
+            <p>Nodejs</p>
           </div>
-          <div class="skill-main">
-            <div class="skill">
-              <img src="./assets/LeetCode.png" />
-              <p>DSA on Leetcode</p>
-            </div>
-            <div class="skill-shadow"></div>
+          <div class="skill-shadow"></div>
+        </div>
+        <div class="skill-main">
+          <div class="skill">
+            <img src="./assets/LeetCode.png" />
+            <p>DSA on Leetcode</p>
           </div>
-          <div class="skill-main">
-            <div class="skill">
-              <img src="./assets/postgresql.png" />
-              <p>Miscellaneous</p>
-            </div>
-            <div class="skill-shadow"></div>
+          <div class="skill-shadow"></div>
+        </div>
+        <div class="skill-main">
+          <div class="skill">
+            <img src="./assets/postgresql.png" />
+            <p>Miscellaneous</p>
           </div>
+          <div class="skill-shadow"></div>
         </div>
       </div>
-      <section class="qualification section" id="qualifications">
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle"> My personal journey </span>
-        <div class="qualification__container">
-          <div class="qualification__tabs">
-            <div
-              class="qualification__button button--flex"
-              data-target="#education"
-            >
-              <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
-            </div>
-            <div class="qualification__button button--flex" data-target="#work">
-              <i class="uil uil-briefcase-alt qualification__icon"></i>
-              Work
-            </div>
+    </div>
+    <section class="qualification section" id="qualifications">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle"> My personal journey </span>
+      <div class="qualification__container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex" data-target="#education">
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
           </div>
-          <div class="qualification__sections">
-            <div
-              class="qualification__content qualification__active"
-              data-content
-              id="education"
-            >
-              <!-- Qualification 1 -->
+          <div class="qualification__button button--flex" data-target="#work">
+            <i class="uil uil-briefcase-alt qualification__icon"></i>
+            Work
+          </div>
+        </div>
+        <div class="qualification__sections">
+          <div class="qualification__content qualification__active" data-content id="education">
+            <!-- Qualification 1 -->
 
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Secondary High School</h3>
-                  <span class="qualification__subtitle">
-                    Kokilaben Dhirubhai Ambani Vidyamandir
-                  </span>
-                  <span class="qualification__subtitle"> (95%) </span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2008-2017
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Secondary High School</h3>
+                <span class="qualification__subtitle">
+                  Kokilaben Dhirubhai Ambani Vidyamandir
+                </span>
+                <span class="qualification__subtitle"> (95%) </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2008-2017
                 </div>
               </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
 
-              <!-- Qualification 2 -->
+            <!-- Qualification 2 -->
 
-              <div class="qualification__data">
-                <div></div>
+            <div class="qualification__data">
+              <div></div>
 
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification__title">Higher Secondary, CBSE</h3>
-                  <span class="qualification__subtitle">
-                    Kokilaben Dhirubhai Ambani Vidyamandir
-                  </span>
-                  <span class="qualification__subtitle"> (90%) </span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2017-2019
-                  </div>
-                </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
               </div>
 
-              <!-- Qualification 3 -->
-
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Computer Engineer</h3>
-                  <span class="qualification__subtitle">
-                    Charotar University of Science And Technology
-                  </span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2019-2023
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <!-- <span class="qualification__line"></span> -->
+              <div>
+                <h3 class="qualification__title">Higher Secondary, CBSE</h3>
+                <span class="qualification__subtitle">
+                  Kokilaben Dhirubhai Ambani Vidyamandir
+                </span>
+                <span class="qualification__subtitle"> (90%) </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2017-2019
                 </div>
               </div>
+            </div>
 
-              <!-- Qualification 4 -->
+            <!-- Qualification 3 -->
 
-              <!-- <div class="qualification__data">
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Computer Engineer</h3>
+                <span class="qualification__subtitle">
+                  Charotar University of Science And Technology
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2019-2023
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <!-- <span class="qualification__line"></span> -->
+              </div>
+            </div>
+
+            <!-- Qualification 4 -->
+
+            <!-- <div class="qualification__data">
                 <div></div>
 
                 <div>
@@ -361,338 +276,399 @@
                   </div>
                 </div>
               </div> -->
+          </div>
+
+          <!-- Work  -->
+
+          <div class="qualification__content" data-content id="work">
+            <!-- Qualification 1 -->
+
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Web Intern</h3>
+                <span class="qualification__subtitle">
+                  Krsikx India LLP
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  May 2021 – June 2021
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
             </div>
 
-            <!-- Work  -->
+            <!-- Qualification 2 -->
 
-            <div class="qualification__content" data-content id="work">
-              <!-- Qualification 1 -->
+            <div class="qualification__data">
+              <div></div>
 
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Web Intern</h3>
-                  <span class="qualification__subtitle">
-                    Krsikx India LLP
-                  </span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    May 2021 – June 2021
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
               </div>
 
-              <!-- Qualification 2 -->
-
-              <div class="qualification__data">
-                <div></div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification__title">
-                    Frontend Developer Intern
-                  </h3>
-                  <span class="qualification__subtitle">
-                    Science2Innovation
-                  </span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    April 2021 – June 2021
-                  </div>
-                </div>
-              </div>
-
-              <!-- Qualification 3 -->
-
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Elective Course Trainee</h3>
-                  <span class="qualification__subtitle">
-                    Motorola Solutions Inc
-                  </span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Dec 2021 – May 2022
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-
-              <!-- Qualification 4 -->
-
-              <div class="qualification__data">
-                <div></div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification__title">
-                    Intern (IDAP, CIE Site Reliability Engineering)
-                  </h3>
-                  <span class="qualification__subtitle">
-                    Motorola Solutions Inc
-                  </span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    June 2022 – Present
-                  </div>
+              <div>
+                <h3 class="qualification__title">
+                  Frontend Developer Intern
+                </h3>
+                <span class="qualification__subtitle">
+                  Science2Innovation
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  April 2021 – June 2021
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <div class="projects-container" id="projects">
-        <p class="heading">My awesome <span>projects</span></p>
-        <div class="projects">
-          <div class="project">
-            <p>Novel web app</p>
-            <p class="desc">
-              Developed and Deployed (AWS) a website where users can read
-              English versions of Korean & Chinese novels.
-            </p>
-            <ul>
-              <li>Frontend: Reactjs and Redux 🎸</li>
-              <li>Backend: Nodejs and Express js web application framework</li>
-              <li>Database: MongoDB Atlas as the database</li>
-              <li>Authentication: Login with Google</li>
-            </ul>
 
-            <a
-              href="https://github.com/saheelsapovadia/EAheroku"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Learn more</a
-            >
-          </div>
-          <div class="project">
-            <p>Pomodoro app</p>
-            <p class="desc">
-              Productivity enhancing timer app to complete daily tasks
-            </p>
-            <ul>
-              <li>
-                Binding with functions written in native Android Java rather
-                than using 3rd party rn libraries for more efficiency
-              </li>
-              <li>Added react navigation, animations and PanResponder</li>
-            </ul>
-            <a
-              href="https://github.com/saheelsapovadia/Pomodoro"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Learn more</a
-            >
-          </div>
+            <!-- Qualification 3 -->
 
-          <div class="project">
-            <p>Spotify web clone</p>
-            <p class="desc">Open source community project led by me</p>
-            <ul>
-              <li>
-                As a Maintainer 🧑‍💻 in Hacktoberfest, managed repositories open
-                for contributions
-              </li>
-              <li>
-                Approved and merged multiple pull requests from around the globe
-              </li>
-              <li>
-                Solving merge conflicts 🦹‍♂️, bugs 🐞 and overall code
-                improvements
-              </li>
-            </ul>
-            <a
-              href="https://github.com/clubgamma/spotify-web-clone"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Learn more</a
-            >
-          </div>
-          <div class="project">
-            <p>Angular project management</p>
-            <p class="desc">
-              Projects and Users management platform under the guidance of
-              Motorola Solutions engineers
-            </p>
-            <ul>
-              <li>
-                Under the mentorship of Motorola Solutions Software engineers 🧑‍💻
-                for 6 months developed a full stack PEAN app
-              </li>
-              <li>
-                Project includes all the fundamental aspects of full stack.
-                Authentication, CRUD REST apis, SQL, etc
-              </li>
-            </ul>
-            <a
-              href="https://github.com/saheelsapovadia/MSI-Project-19CE127"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Learn more</a
-            >
-          </div>
-          <div class="project">
-            <p>Facebook web clone</p>
-            <p class="desc">Facebook home page clone</p>
-            <ul>
-              <li>
-                Practicing styling using tailwind CSS to design a crisp UI in
-                Reactjs
-              </li>
-              <li>Implementing fundamental react features</li>
-            </ul>
-            <a
-              href="https://github.com/saheelsapovadia/facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Learn more</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="experiences-container" id="experiences">
-        <p class="heading">My awesome <span>experiences</span></p>
-        <div class="experiences">
-          <div class="right"></div>
-          <div class="left">
-            <div class="experience">
-              <div class="margin">
-                <p>01/</p>
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Elective Course Trainee</h3>
+                <span class="qualification__subtitle">
+                  Motorola Solutions Inc
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Dec 2021 – May 2022
+                </div>
               </div>
-              <div class="main">
-                <div class="title" style="display: flex; align-items: center">
-                  <p>Software Developer Intern</p>
-                  <div class="current"></div>
-                </div>
-                <div class="info-container">
-                  <p class="company">motorola solutions inc.</p>
-                  <div class="info">
-                    <p>June 2022 - Present</p>
-                    <p>Baroda, Gujarat</p>
-                  </div>
-                </div>
-                <div class="content">
-                  <ul>
-                    <li>
-                      TLS enhancement in Alarmdashboard platform build with
-                      Angular and Node
-                    </li>
-                    <li>Logging the Angular app</li>
-                    <li>
-                      Handling frontend and backend of new internal platform
-                      redevelopment project
-                    </li>
-                    <li>Managing the data flow of Hadoop and Elastic search</li>
-                  </ul>
-                  <div class="tech">
-                    <img src="/assets/Angular.svg" />
-                    <img src="/assets/Nodejs.png" />
-                    <img src="/assets/postgresql.png" />
-                    <img src="/assets/Github.png" />
-                  </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!-- Qualification 4 -->
+
+            <div class="qualification__data">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification__title">
+                  Software Developer Intern (Oneui, Command Center Admin, CPE)
+                </h3>
+                <span class="qualification__subtitle">
+                  Motorola Solutions Inc
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  June 2022 – May 2023
                 </div>
               </div>
             </div>
-            <div class="experience">
-              <div class="margin">
-                <p>02/</p>
-              </div>
-              <div class="main">
-                <div class="title">
-                  <p>Elective Course</p>
-                </div>
-                <div class="info-container">
-                  <p class="company">motorola solutions inc.</p>
-                  <div class="info">
-                    <p>Jan 2022 - May 2022</p>
-                    <p>Baroda, Gujarat</p>
-                  </div>
-                </div>
-                <div class="content">
-                  <ul>
-                    <li>
-                      Project Development under the guidance and supervision of
-                      Software Developers@Motorola Solutions
-                    </li>
-                    <li>Frontend in Angular framework</li>
-                    <li>
-                      Microservice Fundamentals Backend using Nodejs and
-                      PostgreSQL
-                    </li>
+            <div class="qualification__data">
 
-                    <li>Concepts of REST APIs in Hadoop and Elastic Search</li>
-                  </ul>
-                  <div class="tech">
-                    <img src="/assets/Angular.svg" />
-                    <img src="/assets/Nodejs.png" />
-                    <img src="/assets/postgresql.png" />
-                    <img src="/assets/Github.png" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="experience">
-              <div class="margin">
-                <p>03/</p>
-              </div>
-              <div class="main">
-                <div class="title">
-                  <p>Frontend Web Intern</p>
-                </div>
-                <div class="info-container">
-                  <p class="company">Science2Innovation</p>
-                  <div class="info">
-                    <p>April 2021 - June 2021</p>
-                    <p>Hyderabad, Telagana</p>
-                  </div>
-                </div>
-                <div class="content">
-                  <ul>
-                    <li>
-                      Implemented the features for a platform connecting
-                      employers and job seekers
-                    </li>
-                    <li>Developed using Reactjs and CSS</li>
-                  </ul>
 
-                  <div class="tech">
-                    <img src="/assets/React.png" />
-                    <img src="/assets/Github.png" />
-                  </div>
+              <div>
+                <h3 class="qualification__title">
+                  Software Developer (Command Center Admin, CPE)
+                </h3>
+                <span class="qualification__subtitle">
+                  Motorola Solutions Inc
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  June 2023 – Present
                 </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- <div class="open-source-container">
+    </section>
+    <div class="projects-container" id="projects">
+      <p class="heading">My awesome <span>projects</span></p>
+      <div class="projects">
+        <div class="project">
+          <p>Novel web app</p>
+          <p class="desc">
+            Developed and Deployed (AWS) a website where users can read
+            English versions of Korean & Chinese novels.
+          </p>
+          <ul>
+            <li>Frontend: Reactjs and Redux 🎸</li>
+            <li>Backend: Nodejs and Express js web application framework</li>
+            <li>Database: MongoDB Atlas as the database</li>
+            <li>Authentication: Login with Google</li>
+          </ul>
+
+          <a href="https://github.com/saheelsapovadia/EAheroku" target="_blank" rel="noopener noreferrer">Learn more</a>
+        </div>
+        <div class="project">
+          <p>Pomodoro app</p>
+          <p class="desc">
+            Productivity enhancing timer app to complete daily tasks
+          </p>
+          <ul>
+            <li>
+              Binding with functions written in native Android Java rather
+              than using 3rd party rn libraries for more efficiency
+            </li>
+            <li>Added react navigation, animations and PanResponder</li>
+          </ul>
+          <a href="https://github.com/saheelsapovadia/Pomodoro" target="_blank" rel="noopener noreferrer">Learn more</a>
+        </div>
+
+        <div class="project">
+          <p>Spotify web clone</p>
+          <p class="desc">Open source community project led by me</p>
+          <ul>
+            <li>
+              As a Maintainer 🧑‍💻 in Hacktoberfest, managed repositories open
+              for contributions
+            </li>
+            <li>
+              Approved and merged multiple pull requests from around the globe
+            </li>
+            <li>
+              Solving merge conflicts 🦹‍♂️, bugs 🐞 and overall code
+              improvements
+            </li>
+          </ul>
+          <a href="https://github.com/clubgamma/spotify-web-clone" target="_blank" rel="noopener noreferrer">Learn
+            more</a>
+        </div>
+        <div class="project">
+          <p>Angular project management</p>
+          <p class="desc">
+            Projects and Users management platform under the guidance of
+            Motorola Solutions engineers
+          </p>
+          <ul>
+            <li>
+              Under the mentorship of Motorola Solutions Software engineers 🧑‍💻
+              for 6 months developed a full stack PEAN app
+            </li>
+            <li>
+              Project includes all the fundamental aspects of full stack.
+              Authentication, CRUD REST apis, SQL, etc
+            </li>
+          </ul>
+          <a href="https://github.com/saheelsapovadia/MSI-Project-19CE127" target="_blank"
+            rel="noopener noreferrer">Learn more</a>
+        </div>
+        <div class="project">
+          <p>Facebook web clone</p>
+          <p class="desc">Facebook home page clone</p>
+          <ul>
+            <li>
+              Practicing styling using tailwind CSS to design a crisp UI in
+              Reactjs
+            </li>
+            <li>Implementing fundamental react features</li>
+          </ul>
+          <a href="https://github.com/saheelsapovadia/facebook" target="_blank" rel="noopener noreferrer">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="experiences-container" id="experiences">
+      <p class="heading">My awesome <span>experiences</span></p>
+      <div class="experiences">
+        <div class="right"></div>
+        <div class="left">
+          <div class="experience">
+            <div class="margin">
+              <p>01/</p>
+            </div>
+            <div class="main">
+              <div class="title" style="display: flex; align-items: center">
+                <p>Software Developer</p>
+                <div class="current"></div>
+              </div>
+              <div class="info-container">
+                <p class="company">motorola solutions inc.</p>
+                <div class="info">
+                  <p>June 2023 - Present</p>
+                  <p>Bengaluru, Karnataka</p>
+                </div>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+
+                    Providing unified login experience across products and platforms in Motorola, as part of the Unified
+                    Identity team
+                  </li>
+                  <li>
+                    Contributing in mission-critical Command Central Admin product used by public safety and enterprise
+                    agencies
+                  </li>
+                  <li>
+                    Created the proof of concept to automate provisioning of services and cut down time by 96
+                  </li>
+                  <li>
+                    System Design :Engaged in collaborative system design discussions, providing valuable insights and
+                    aiding in schema and architecture planning
+                  </li>
+                  <li>
+                    DevOps : Proficient in DevOps practices, including establishing pipelines for infrastructure and
+                    microservices deployment across diverse environments utilizing Microsoft Azure; adept with Docker
+                    and Kubernetes
+                  </li>
+                  <li>
+                    Monitoring : Pushing metrics to datasources and creating dashboards for observability purposes
+                  </li>
+                  <li>
+                    Testing : Ensured code reliability through comprehensive testing practices, including Jest unit
+                    tests and Cypress end-to-end testing for frontend, and JUnit and Karate for backend systems.
+                  </li>
+                </ul>
+                <div class="tech">
+                  <img src="/assets/springboot.png" />
+                  <img src="/assets/Angular.svg" />
+                  <img src="/assets/Nodejs.png" />
+                  <img src="/assets/postgresql.png" />
+                  <img src="/assets/azure-devops.webp" />
+                  <img src="/assets/Github.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="margin">
+              <p>01/</p>
+            </div>
+            <div class="main">
+              <div class="title" style="display: flex; align-items: center">
+                <p>Software Developer Intern</p>
+                <div class="current"></div>
+              </div>
+              <div class="info-container">
+                <p class="company">motorola solutions inc.</p>
+                <div class="info">
+                  <p>June 2022 - May 2023</p>
+                  <p>Bengaluru, Karnataka</p>
+                </div>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    TLS enhancement in Alarmdashboard platform build with
+                    Angular and Node
+                  </li>
+                  <li>Logging the Angular app</li>
+                  <li>
+                    Handling frontend and backend of new internal platform
+                    redevelopment project
+                  </li>
+                  <li>Managing the data flow of Hadoop and Elastic search</li>
+                </ul>
+                <div class="tech">
+                  <img src="/assets/Angular.svg" />
+                  <img src="/assets/Nodejs.png" />
+                  <img src="/assets/postgresql.png" />
+                  <img src="/assets/Github.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="margin">
+              <p>02/</p>
+            </div>
+            <div class="main">
+              <div class="title">
+                <p>Elective Course</p>
+              </div>
+              <div class="info-container">
+                <p class="company">motorola solutions inc.</p>
+                <div class="info">
+                  <p>Jan 2022 - May 2022</p>
+                  <p>Baroda, Gujarat</p>
+                </div>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    Project Development under the guidance and supervision of
+                    Software Developers@Motorola Solutions
+                  </li>
+                  <li>Frontend in Angular framework</li>
+                  <li>
+                    Microservice Fundamentals Backend using Nodejs and
+                    PostgreSQL
+                  </li>
+
+                  <li>Concepts of REST APIs in Hadoop and Elastic Search</li>
+                </ul>
+                <div class="tech">
+                  <img src="/assets/Angular.svg" />
+                  <img src="/assets/Nodejs.png" />
+                  <img src="/assets/postgresql.png" />
+                  <img src="/assets/Github.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="margin">
+              <p>03/</p>
+            </div>
+            <div class="main">
+              <div class="title">
+                <p>Frontend Web Intern</p>
+              </div>
+              <div class="info-container">
+                <p class="company">Science2Innovation</p>
+                <div class="info">
+                  <p>April 2021 - June 2021</p>
+                  <p>Hyderabad, Telagana</p>
+                </div>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    Implemented the features for a platform connecting
+                    employers and job seekers
+                  </li>
+                  <li>Developed using Reactjs and CSS</li>
+                </ul>
+
+                <div class="tech">
+                  <img src="/assets/React.png" />
+                  <img src="/assets/Github.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="open-source-container">
         <p>Open Source Contributions</p>
         <ul>
           <li></li>
         </ul>
       </div> -->
-      <div class="clear"></div>
-    </div>
-    <footer>
-      <!-- socials -->
-      <p>
-        Made with
-        <span style="color: rgb(226, 85, 85)">♥</span>
-        by Saheel Sapovadia
-      </p>
-    </footer>
-    <script src="script.js" defer></script>
-  </body>
+    <div class="clear"></div>
+  </div>
+  <footer>
+    <!-- socials -->
+    <p>
+      Made with
+      <span style="color: rgb(226, 85, 85)">♥</span>
+      by Saheel Sapovadia
+    </p>
+  </footer>
+  <script src="script.js" defer></script>
+  <!-- SWIPER -->
+  <script src="assets/swiper-bundle.min.js"></script>
+</body>
+
 </html>

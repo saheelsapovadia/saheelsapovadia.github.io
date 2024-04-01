@@ -1,0 +1,99 @@
+<!-- OTHER WORK/PROJECTS -->
+    <div class="gallery">
+      <!-- SWIPER GALLERY CARDS -->
+      <div class="swiper gallery-cards">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="assets/img/img1.png" alt="image gallery" class="gallery__img" />
+              <div class="gallery__data">
+                <h3 class="gallery__title">Web3 project</h3>
+                <span class="gallery__subtitle">Modern CSS</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="assets/img/img2.png" alt="image gallery" class="gallery__img" />
+              <div class="gallery__data">
+                <h3 class="gallery__title">Web3 project</h3>
+                <span class="gallery__subtitle">Modern CSS</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="assets/img/img3.png" alt="image gallery" class="gallery__img" />
+              <div class="gallery__data">
+                <h3 class="gallery__title">Web3 project</h3>
+                <span class="gallery__subtitle">Modern CSS</span>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="assets/img/img3.png" alt="image gallery" class="gallery__img" />
+              <div class="gallery__data">
+                <h3 class="gallery__title">Web3 project</h3>
+                <span class="gallery__subtitle">Modern CSS</span>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="assets/img/img3.png" alt="image gallery" class="gallery__img" />
+              <div class="gallery__data">
+                <h3 class="gallery__title">Web3 project</h3>
+                <span class="gallery__subtitle">Modern CSS</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- SWIPER GALLERY THUMBNAIL -->
+      <div class="gallery__overflow">
+        <div class="swiper gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="assets/img/img1.png" alt="image THUMBNAIL" class="gallery__thumbnail-img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="assets/img/img2.png" alt="image THUMBNAIL" class="gallery__thumbnail-img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="assets/img/img3.png" alt="image THUMBNAIL" class="gallery__thumbnail-img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="assets/img/img3.png" alt="image THUMBNAIL" class="gallery__thumbnail-img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="assets/img/img3.png" alt="image THUMBNAIL" class="gallery__thumbnail-img" />
+              </div>
+            </div>
+          </div>
+
+          <!-- SWIPER PAGINATION -->
+
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- SWIPER ARROWS -->
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-line"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-line"></i>
+        </div>
+      </div>
+    </div>
